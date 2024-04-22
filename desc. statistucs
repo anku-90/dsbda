@@ -1,0 +1,9 @@
+ass-3
+features=[feat for feat in df.columns if df[feat]!='0']
+
+covariance
+for i in [0,1,2,3]:
+  for j in []0,1,2,3]:
+      if(i<=j and i!=j):
+          val=df[features[i]].cov(df[featues[j]])
+            print('cov of {} and {} :{}'.format(features[i],features[j]))
